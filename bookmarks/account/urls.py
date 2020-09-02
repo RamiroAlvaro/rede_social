@@ -1,6 +1,6 @@
 from django.urls import path
 from django.contrib.auth import views as auth_views
-from .views import user_login, dashboard, register, edit
+from .views import dashboard, register, edit
 
 urlpatterns = [
     # path('login/', user_login, name='login'),
